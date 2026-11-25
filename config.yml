@@ -1,0 +1,9 @@
+# Ресурспак треба виставити в інтернет (прямe посилання на .zip).
+resource-pack:
+  url: ""
+  sha1: "1d160e26f6c24ba67ae75a7a4744f827628073bc"
+  # false = пак отримують лише адміни; true = усі гравці
+  send-to-all: false
+
+# Заповнюється командою /admin_panel give <нік>
+admins: []

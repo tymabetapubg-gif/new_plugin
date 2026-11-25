@@ -1,0 +1,13 @@
+name: TymaaAdminPanel
+main: ua.tymaa.adminpanel.AdminPanel
+version: 1.0.0
+api-version: '1.21'
+description: Адмін панель (tymaa)
+commands:
+  admin_panel:
+    description: Відкрити панель / видати (give) чи забрати (revoke) доступ
+    usage: /admin_panel [give|revoke|list] [нік]
+    aliases: [adminpanel]
+  apanel:
+    description: Службова команда кнопок панелі
+    usage: /apanel <дія>
