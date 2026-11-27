@@ -21,7 +21,7 @@ sourceSets {
     main {
         java {
             srcDirs = ['.']
-            include '*.java'
+            include 'AdminPanelClient.java', 'PanelScreen.java'
         }
         resources {
             srcDirs = ['.']
