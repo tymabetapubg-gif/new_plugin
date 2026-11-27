@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tymaaadminpanel",
+  "version": "1.0.0",
+  "name": "Адмін панель (tymaa)",
+  "description": "Клієнтська адмін панель: бінд H, кнопка в меню ESC, команди /apanel.",
+  "authors": ["tymaa"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ua.tymaa.adminpanelmod.AdminPanelClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
